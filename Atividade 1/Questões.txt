@@ -1,0 +1,20 @@
+1. Irá retornar 16, portanto a resposta certa é a e) 18.
+
+2. Será realizada 8 vezes a chamada de fib(2).
+
+3. Iniciará pelo fib(4), será chamado fib(3) e em seguida fib(2) e até chegar o caso base fib(1), após isso ele irá retornar a fib(2) e é chamado fib(0), retorna até fib(3) e é chamado fib(1), com isso o programa retorna para o fib(4) e é chamado novamente o fib(2), que chama fib(1), o programa retorna para fib(2) e é chamado fib(0), com o programa retornando e resolvendo o fib(4) por fim.
+
+4. 
+void mostrar(ListaEncadeada *lista) {
+	ListaEncadeada *P;
+	P = lista;
+	if (P != NULL) {
+		while (P != NULL) {
+			cout << P->dado << endl;
+			P = P->próximo;
+		}
+	}
+}
+
+5.
+Irá escrever um número crescente de asteriscos por linha da saída, iniciando em 0 e indo até o número do aniversário inserido em incrementos de 1.
